@@ -14,7 +14,7 @@ import javax.persistence.JoinTable;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
-
+///------------------------------At sts--------------------------------------
 @Entity
 @Table(name="USER_INFO")
 public class UserInfo {
@@ -23,11 +23,11 @@ public class UserInfo {
 	private	int userId;
 	@Column(name="USER_NAME")
 	private	String username;
-	//////////OneToOneMapping////////////////
-	/*---------------------------------------------@OneToOne-------------------------------------
+	/*//////////OneToOneMapping////////////////
+	---------------------------------------------@OneToOne-------------------------------------
 	@JoinColumn(name="VEHICLE_ID")
 	private Vehicle  vehicle;
-	*/
+	
 	
 	//-------------------------------------ONE TO MANY----------------------------------------------
 	/*@OneToMany
