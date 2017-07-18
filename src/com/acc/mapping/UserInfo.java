@@ -15,7 +15,8 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 ///------------------------------At sts--------------------------------------
-/////////again in git
+/////////again in sts1
+////At ................Git
 @Entity
 @Table(name="USER_INFO")
 public class UserInfo {
