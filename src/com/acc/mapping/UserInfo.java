@@ -25,7 +25,7 @@ public class UserInfo {
 	private	int userId;
 	@Column(name="USER_NAME")
 	private	String username;
-	/*//////////OneToOneMapping////////////////
+	/*//////////OneToOneMapping////////////////........................
 	---------------------------------------------@OneToOne-------------------------------------
 	@JoinColumn(name="VEHICLE_ID")
 	private Vehicle  vehicle;
